@@ -49,7 +49,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
         " header header "
-        " col1 col2 "
+        " side-l side-r "
         " footer footer ";
 }
 .exam.old section {
@@ -138,16 +138,16 @@
 .exam section:nth-of-type(even) .exam-type { left: 30px; }
 
 /* Question container */
-.col1, .col2 {
+.side-l, .side-r {
     position: relative;
     overflow: hidden;
 }
-.col1 {
-    grid-area: col1;
+.side-l {
+    grid-area: side-l;
     padding-right: 12px;
 }
-.col2 {
-    grid-area: col2;
+.side-r {
+    grid-area: side-r;
     border-left: 1px solid var(--cblack);
     padding-left: 12px;
 }

@@ -42,7 +42,7 @@
     .exam footer {
         display: none;
     }
-    .exam .col1, .exam .col2 {
+    .exam .side-l, .exam .side-r {
         width: 321px;
         height: auto;
         border: none;

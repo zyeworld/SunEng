@@ -82,8 +82,7 @@ a { text-decoration: none; }
 /* Usual */
 .exam-container a {
     display: block;
-    margin: 1rem 1rem 3rem;
-    border: none;
+    margin: 1rem 1rem 2.5rem;
     padding: 0.25rem;
 
     font-size: 3rem;
@@ -92,12 +91,15 @@ a { text-decoration: none; }
     color: var(--cbeige);
     background-color: var(--cblack);
 
-    transition: transform 0.2s;
+    transition: margin 0.2s, padding 0.2s, font-size 0.2s;
 }
 
 .exam-container a:hover {
     background-color: var(--cnavy);
-    transform: scale(1.1);
+    /* outline: 0.5rem solid var(--cnavy); */
+    margin: 0.8rem 0.5rem 2.5rem;
+    padding: 0.5rem 0;
+    font-size: 3.3rem;
 }
 
 /* Small screen */
