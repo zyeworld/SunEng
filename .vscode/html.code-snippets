@@ -55,28 +55,25 @@
 	},
 	"Flex > text & line & text": {
 		"scope": "html",
-		"prefix": "dotline",
+		"prefix": "divider",
 		"body": [
-			"<div",
-			"\tstyle=\"",
-			"\t\tdisplay: flex;",
-			"\t\tjustify-content: space-between;",
-			"\t\talign-items: center;",
-			"\t\"",
-			">",
+			"<div class=\"divider\">",
 			"\t<div>$1</div>",
-			"\t<div",
-			"\t\tstyle=\"",
-			"\t\t\tflex: auto;",
-			"\t\t\tborder-bottom: 1px dotted black;",
-			"\t\t\tmargin: 0 6px;",
-			"\t\t\ttransform: translateY(-50%);",
-			"\t\t\"",
-			"\t></div>",
+			"\t<div class=\"line\"></div>",
 			"\t<div>\\((\\mathrm{${2:A}})\\)</div>",
 			"</div>"
 		],
 		"description": "Div.box-list & text"
+	},
+	"Addendum": {
+		"scope": "html",
+		"prefix": "addendum",
+		"body": [
+			"<div style=\"line-height: 14px\">",
+            "\t<small>† The question was rephrased for cleaner translation.</small>",
+         	"</div>"
+		],
+		"description": "Translation addendum"
 	},
 
 	// Miscellaneous symbols
@@ -97,7 +94,7 @@
 		"description": "Reference symbol"
 	},
 
-	// MathJax stuff
+	// MathJax
 	"TeX": {
 		"scope": "html",
 		"prefix": "x",
@@ -245,5 +242,15 @@
 			"\\fbox{\\(\\;(${1:\\alpha})\\;\\)}$0"
 		],
 		"description": "Fbox"
+	},
+
+	// Other
+	"SmallFraction": {
+		"scope": "html",
+		"prefix": "sfr",
+		"body": [
+			"\\,\\begin{array}{c}${1:1}\\\\\\ \\hline ${2:2}\\end{array}$0"
+		],
+		"description": "Small Fraction (in sup or sub)"
 	}
 }

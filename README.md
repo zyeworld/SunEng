@@ -1,6 +1,15 @@
-# `SunEng` (Korean SAT)
+# `SunEng`
 
-## What is the Korean SAT?
+## What is this project?
+
+**Sun**eung math exams translated to **Eng**lish — “SunEng.”
+
+[View the project online!](https://www.zye.world/SunEng)
+
+This is a personal passion project.
+I cannot guarantee that all exams will be translated.
+
+## What is Suneung?
 
 **Su-neung**(**수능**, abbreviation of 대학**수**학**능**력시험) is the college entrance exam of South Korea. It is officially called the <strong>College Scholastic Ability Test</strong> in English.
 
@@ -21,25 +30,39 @@ as well as a benchmark that *'impacts teaching and learning practices in high sc
 All past Suneung exams can be found in the [KICE database](https://www.suneung.re.kr/boardCnts/list.do?boardID=1500234&m=0403&s=suneung).
 Solutions to exams since 2006 can be found in [EBSi](https://www.ebsi.co.kr/ebs/xip/xipc/previousPaperList.ebs?targetCd=D300), a government-owned service(requires sign-up). Note that EBSi is not KICE, so their solutions may not be the ones intended by KICE.
 
-## What is this project?
+## Details on Suneung math
 
-Suneung math exams translated to English — “SunEng.”
+### Rules as of 2026:
 
-Compared to the infamy, I've rarely seen the exam translated for the global audience to examine. So I'm making a database myself.
+- Time: **100** minutes
+- Total score: **100** points
+- Number of questions: **30**
+  - Multiple choice questions: **21**
+  - Short answer questions: **9**
 
-This is a personal passion project.
-I cannot guarantee that all exams will be translated.
+> Each multiple choice question has 5 choices.
+> The answer to each short answer question is an integer from 1 to 999.
 
-[View the project online!](https://www.zye.world/SunEng)
+- No penalty for guessing wrong.
+- No calculators.
 
-## Why only the math exams?
+### How the exam paper is structured:
 
-Well, the Language Arts exams are simply impossible to translate — _how would I translate poems while maintaining rhymes?_ — and the English exams are already in English.
+- Pages 1 ~ 8: Questions **1 ~ 22**
+- Pages 9 ~ 12: Questions **23 ~ 30** (Probability and Statistics)
+- Pages 13 ~ 16: Questions **23 ~ 30** (Calculus)
+- Pages 17 ~ 20: Questions **23 ~ 30** (Geometry)
 
-Science exams require a lot of work to translate, since they contain loads of diagrams with Korean text.
-
-## What's special about Suneung math?
+Students must select one of the three elective subjects
+(Probability and Statistics / Calculus / Geometry)
+and solve the according questions.
 
 Suneung math is quite an assortment of carefully crafted problems.
 It would generally be a helpful resource if you study or teach math.
 Try it if you're a math nerd!
+
+## Why only translate the math exams?
+
+Well, the Language Arts exams are simply impossible to translate — _how would I translate poems while maintaining rhymes?_ — and the English exams are already in English.
+
+Science exams require a lot of work to translate, since they contain loads of diagrams with Korean text. I do want to translate a few of them, for example the hardest ever exam from each subject.
